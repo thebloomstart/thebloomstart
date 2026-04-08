@@ -2,71 +2,52 @@
 <img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/header-banner.svg" width="100%"/>
 </div>
 
-
-<br/><br/>
-
+<br/>
 
 <div align="center">
 
-<h2>Zynapse</h2>
-<p>nixos enjoyer • open source</p>
-
-<br/>
-
-<!-- СТАБИЛЬНЫЕ ИКОНКИ -->
-<a href="https://t.me/BloomDev">
-  <img src="https://cdn.simpleicons.org/telegram/c9728a" height="26"/>
-</a>
-<a href="https://github.com/thebloomstart">
-  <img src="https://cdn.simpleicons.org/github/c9728a" height="26"/>
-</a>
+[![Telegram](https://img.shields.io/badge/Telegram-BloomDev-d4789a?style=flat-square&logo=telegram&logoColor=white&labelColor=f9eef3)](https://t.me/BloomDev)
+[![GitHub](https://img.shields.io/badge/GitHub-thebloomstart-d4789a?style=flat-square&logo=github&logoColor=white&labelColor=f9eef3)](https://github.com/thebloomstart)
 
 </div>
 
-
-<br/><br/><br/>
-
+<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/hud-card.svg" width="100%"/>
 </div>
 
-
-<br/><br/><br/>
-
+<br/>
 
 <div align="center">
 
-<!-- СТАБИЛЬНЫЕ TECH ИКОНКИ -->
-<img src="https://skillicons.dev/icons?i=cpp,cs,rust" />
-<br/>
-<img src="https://skillicons.dev/icons?i=python,bash,powershell" />
-<br/>
-<img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,electron" />
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,redis,docker,linux,git" />
+![C++](https://skillicons.dev/icons?i=cpp)
+![C#](https://skillicons.dev/icons?i=cs)
+![Rust](https://skillicons.dev/icons?i=rust)
+![Python](https://skillicons.dev/icons?i=python)
+![Bash](https://skillicons.dev/icons?i=bash)
+![TypeScript](https://skillicons.dev/icons?i=ts)
+![Node.js](https://skillicons.dev/icons?i=nodejs)
+![React](https://skillicons.dev/icons?i=react)
+![Electron](https://skillicons.dev/icons?i=electron)
+![Docker](https://skillicons.dev/icons?i=docker)
+![Linux](https://skillicons.dev/icons?i=linux)
 
 </div>
 
-
-<br/><br/><br/>
-
+<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/projects-board.svg" width="100%"/>
 </div>
 
-
-<br/><br/><br/>
-
+<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/goals-card.svg" width="100%"/>
 </div>
 
-
-<br/><br/><br/>
-
+<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/footer-banner.svg" width="100%"/>
