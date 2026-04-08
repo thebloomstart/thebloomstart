@@ -1,70 +1,42 @@
-привет, мне нужно чтобы ты перписал скрипт фул под белую тему, в стиле айфона, чтобы смотрелось строго но плавно и тд, так же оставь красивые гама еффекты и добавь еще что-то  <svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
-
-  <defs>
-
-    <style>
-
-      @keyframes waveDrift { 0%{transform:translateX(0)} 100%{transform:translateX(-800px)} }
-
-      @keyframes fadeIn { from{opacity:0} to{opacity:1} }
-
-      .wave1 { animation: waveDrift 20s linear infinite; }
-
-      .wave2 { animation: waveDrift 26s linear infinite reverse; }
-
-      .label { animation: fadeIn 1.2s 0.3s ease both; }
-
-    </style>
-
-    <linearGradient id="bgf" x1="0" y1="0" x2="0" y2="1">
-
-      <stop offset="0%" stop-color="#0d0809"/>
-
-      <stop offset="100%" stop-color="#1a0d12"/>
-
-    </linearGradient>
-
-    <linearGradient id="wgf1" x1="0" y1="0" x2="0" y2="1">
-
-      <stop offset="0%" stop-color="#c9728a" stop-opacity="0"/>
-
-      <stop offset="100%" stop-color="#c9728a" stop-opacity="0.2"/>
-
-    </linearGradient>
-
-    <linearGradient id="wgf2" x1="0" y1="0" x2="0" y2="1">
-
-      <stop offset="0%" stop-color="#8a3a52" stop-opacity="0"/>
-
-      <stop offset="100%" stop-color="#8a3a52" stop-opacity="0.12"/>
-
-    </linearGradient>
-
-  </defs>
-
-
-
-  <rect width="800" height="100" fill="url(#bgf)"/>
-
-
-
-  <g class="wave1">
-
-    <path d="M0,40 C80,20 160,60 240,40 C320,20 400,60 480,40 C560,20 640,60 720,40 C800,20 880,60 960,40 C1040,20 1120,60 1200,40 L1200,0 L0,0 Z" fill="url(#wgf1)"/>
-
-  </g>
-
-  <g class="wave2">
-
-    <path d="M0,55 C100,35 200,70 300,55 C400,40 500,70 600,55 C700,40 800,70 900,55 C1000,40 1100,70 1200,55 L1200,0 L0,0 Z" fill="url(#wgf2)"/>
-
-  </g>
-
-
-
-  <text class="label" x="400" y="62" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="10" fill="#6b3a48" text-anchor="middle" letter-spacing="3" font-weight="500">BLOOM PROJECT · BUILDING WITH PURPOSE, SHIPPING WITH INTENTION</text>
-
-  <text class="label" x="400" y="80" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="10" fill="#3a1a22" text-anchor="middle" letter-spacing="1">Made by Zynapse</text>
-
+<svg width="100%" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Footer banner — Bloom Project</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">White iOS-style footer with animated waves and tagline</desc>
+  <defs>
+    
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f5f7"/>
+    </linearGradient>
+    <linearGradient id="fwg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2b8c6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f2b8c6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fwg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4789a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#d4789a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ftopLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8a0b4" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#d4789a" stop-opacity="0.55"/>
+      <stop offset="75%" stop-color="#d4789a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#e8a0b4" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fclip"><rect width="800" height="90"/></clipPath>
+  </defs>
+  <rect width="800" height="90" fill="url(#fbg)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <g clip-path="url(#fclip)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+      <path d="M0,28 C80,10 160,46 240,28 C320,10 400,46 480,28 C560,10 640,46 720,28 C800,10 880,46 960,28 C1040,10 1120,46 1200,28 L1200,0 L0,0 Z" fill="url(#fwg1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    </g>
+    <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+      <path d="M0,42 C100,24 200,58 300,42 C400,26 500,58 600,42 C700,26 800,58 900,42 C1000,26 1100,58 1200,42 L1200,0 L0,0 Z" fill="url(#fwg2)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    </g>
+  </g>
+  <line x1="0" y1="0.75" x2="800" y2="0.75" stroke="url(#ftopLine)" stroke-width="1.5" style="fill:rgb(0, 0, 0);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="400" y="48" font-family="-apple-system,SF Pro Display,Helvetica Neue,sans-serif" font-size="9" fill="#8a3a52" text-anchor="middle" letter-spacing="3.5" font-weight="500" style="fill:rgb(138, 58, 82);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:9px;font-weight:500;text-anchor:middle;dominant-baseline:auto">BLOOM PROJECT  ·  BUILDING WITH PURPOSE, SHIPPING WITH INTENTION</text>
+  <text x="400" y="66" font-family="-apple-system,SF Pro Display,Helvetica Neue,sans-serif" font-size="9" fill="#c9a0b0" text-anchor="middle" letter-spacing="2" style="fill:rgb(201, 160, 176);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:9px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Made by Zynapse</text>
+  <circle cx="180" cy="55" r="1.5" fill="#e8a0b4" opacity="0.5" style="fill:rgb(232, 160, 180);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="620" cy="55" r="1.5" fill="#e8a0b4" opacity="0.5" style="fill:rgb(232, 160, 180);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="100" y1="57" x2="170" y2="57" stroke="#e8a0b4" stroke-width="0.5" opacity="0.45" style="fill:rgb(0, 0, 0);stroke:rgb(232, 160, 180);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="630" y1="57" x2="700" y2="57" stroke="#e8a0b4" stroke-width="0.5" opacity="0.45" style="fill:rgb(0, 0, 0);stroke:rgb(232, 160, 180);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 </svg>
-
