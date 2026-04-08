@@ -1,54 +1,94 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=250&section=header&text=𝐙𝐲𝐧𝐚𝐩𝐬𝐞&fontSize=80&fontAlignY=45&animation=twinkling&fontColor=ffffff" width="100%" />
+```
+███████╗██╗   ██╗███╗   ██╗ █████╗ ██████╗ ███████╗███████╗
+╚══███╔╝╚██╗ ██╔╝████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔════╝
+  ███╔╝  ╚████╔╝ ██╔██╗ ██║███████║██████╔╝███████╗█████╗  
+ ███╔╝    ╚██╔╝  ██║╚██╗██║██╔══██║██╔═══╝ ╚════██║██╔══╝  
+███████╗   ██║   ██║ ╚████║██║  ██║██║     ███████║███████╗
+╚══════╝   ╚═╝   ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚══════╝╚══════╝
+```
 
-. ｡ ⋆ ་ ᳝ ◝ 𖥻 ٫ ໋ ุ . ✧ ˚ 🫧 ✦ ₊ 🪐 ⊹
+### Senior Developer · Bloom Project CEO · Open Source Enjoyer
 
-<table border="0" width="100%">
-  <tr>
-    <td width="60%" align="left">
-      <h1>† 𝔢𝔱𝔥𝔢𝔯𝔢𝔞𝔩 𝔡𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯</h1>
-      <p>« 𝔴𝔢𝔞𝔳𝔦𝔫𝔤 𝔰𝔥𝔞𝔡𝔬𝔴𝔰 𝔦𝔫𝔱𝔬 𝔩𝔬𝔤𝔦𝔠 »</p>
-      <br>
-      <b>╰┈➤ 𝐋𝐨𝐜𝐚𝐭𝐢𝐨𝐧:</b> 🇬🇧 UK<br>
-      <b>╰┈➤ 𝐅𝐨𝐜𝐮𝐬:</b> C++, Rust, TS, AI & 3D<br>
-      <b>╰┈➤ 𝐒𝐭𝐚𝐭𝐮𝐬:</b> Online 24/7
-    </td>
-    <td width="40%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Zynapse&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=9eadbd" width="100%" />
-    </td>
-  </tr>
-</table>
+[![Telegram](https://img.shields.io/badge/Telegram-BloomDev-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/BloomDev)
+[![Languages](https://img.shields.io/badge/Languages-10+-FF4B4B?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Status-Building_something_cool-00D4AA?style=for-the-badge)](#)
+
+</div>
 
 ---
 
-### ◈ 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤 ◈
+## 🌸 About Me
 
-<img src="https://skillicons.dev/icons?i=cpp,rust,ts,py,react,nodejs,threejs,bots,discord,linux" />
+I'm **Zynapse** — a Senior Developer and founder of the **Bloom** project. I ship useful tools, scripts, and software across wildly different domains: from Discord quest bypasses to full-featured bots, automation tools, and open-source apps. Mostly solo, sometimes collaborative — always building.
 
----
-
-### ◈ 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 ◈
-
-| Project | Description | Links |
-| :--- | :--- | :--- |
-| 🌸 **BLOOM** | Dev community & Studio | [Telegram](https://t.me/BloomDev) |
-| 🎧 **MUSIC BOT** | High-performance audio stream | [Bot](https://t.me/bloom_music_bot) |
-| 🕸️ **ASPHYXIA** | CS2 Internal Framework | [Repo](#) |
+> *"If it's useful, it gets built. If it's interesting, it gets open-sourced."*
 
 ---
 
-### ◈ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ◈
+## 🚀 The Bloom Project
 
-<p align="left">
-<a href="https://t.me/ZynapseX"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-<a href="https://zynapsex.co.uk/"><img src="https://img.shields.io/badge/Website-4B4B4B?style=for-the-badge&logo=ghost&logoColor=white" /></a>
-</p>
+**Bloom** is my personal dev initiative — a collection of practical, real-world software released for everyone.
 
-❝ 𝑛𝑜 𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐 𝑙𝑖𝑚𝑖𝑡𝑠 ❞
+What I build under Bloom:
+- 🤖 **Bots** — automation, Discord, Telegram and more
+- 🛠️ **Scripts & Tools** — bypass systems, workflow automation, CLI utilities
+- 📦 **Open-source apps** — from simple utilities to full-scale software
+- 🔧 **Whatever needs to exist** — if it's missing and I need it, I build it
 
-. ｡ ⋆ ་ ᳝ ◝ 𖥻 ٫ ໋ ุ . ✧ ˚ 🫧 ✦ ₊ 🪐 ⊹
+📡 Follow the project: **[t.me/BloomDev](https://t.me/BloomDev)**
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJtZzRocnk0eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgmc2lkPWFkanVzdF9idXR0b25fbmV4dCZyZWRpcmVjdD1odHRwczovL2kuZ2hpcHkuY29tL040RGV3LmdpZg/giphy.gif" width="100%" height="5px" />
+---
 
+## 💻 Tech Stack
+
+<div align="center">
+
+| Systems & Low-Level | Scripting & Automation | Web & Full-Stack |
+|:---:|:---:|:---:|
+| ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) |
+
+</div>
+
+**Frontend** → React, HTML/CSS, modern UI frameworks  
+**Backend** → REST APIs, bots, daemons, system services  
+**Full-Stack** → End-to-end architecture, solo or team
+
+---
+
+## 📌 Featured Projects
+
+> Check my pinned repos — they represent the range of what Bloom ships.
+
+| Project | Description |
+|---|---|
+| 🌸 **Bloom Tools** | Core collection of practical scripts and utilities |
+| 🤖 **Bot Suite** | Multi-platform automation bots |
+| 🔓 **Discord Utils** | Tooling for Discord power users |
+| 📡 **Open Source Misc** | Interesting programs I found worth sharing |
+
+---
+
+## 📊 Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4AA&icon_color=FF4B4B&text_color=c9d1d9)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4AA&text_color=c9d1d9)
+
+</div>
+
+---
+
+## 📬 Contact
+
+- 📱 Telegram: **[@BloomDev](https://t.me/BloomDev)**
+- 💼 Open for: *collaborations, interesting projects, consulting*
+
+---
+
+<div align="center">
+  <sub>Built with purpose. Released with intent. — <b>Zynapse / Bloom</b></sub>
 </div>
