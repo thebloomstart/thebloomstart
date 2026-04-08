@@ -137,17 +137,85 @@
 
 ### 🌐 Web & Full-Stack
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+<div align="center">
 
-### 🗄️ Infrastructure
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/header-banner.svg" width="100%"/>
+
+</div>
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=400&size=16&pause=1200&color=9A5A6A&center=true&vCenter=true&width=700&lines=Senior+Full-Stack+Developer;C%2B%2B+%7C+Rust+%7C+Python+%7C+TypeScript;Bloom+Project+CEO+%26+Solo+Dev;Building+tools+that+actually+matter;Discord+%7C+Bots+%7C+Automation+%7C+Apps)](https://git.io/typing-svg)
+
+</div>
+
+<br/>
+
+---
+
+## ⚡ Developer Status
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/hud-card.svg" width="100%"/>
+
+</div>
+
+---
+
+## 🌸 About
+
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=thebloomstart&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0f0d0f&title_color=c9728a&icon_color=7a4a58&text_color=8a5a68&border_radius=12" width="46%"/>
+
+I'm **Zynapse** — Senior Dev & CEO of **Bloom Project**
+Building tools that solve real problems.
+
+Discord bypasses → bots → full-scale apps.
+Mostly solo. Open source is the default.
+
+→ [t.me/BloomDev](https://t.me/BloomDev)
+
+<br/>
+
+> *"If it's broken — I fix it.*
+> *If it's missing — I build it.*
+> *If it's built — I open-source it."*
+
+<br clear="right"/>
+
+---
+
+## 💻 Tech Arsenal
+
+<div align="center">
+
+**Systems & Low-Level**
+
+![C++](https://img.shields.io/badge/C++-0f0d0f?style=flat-square&logo=cplusplus&logoColor=c9728a&labelColor=0f0d0f)
+![C#](https://img.shields.io/badge/C%23-0f0d0f?style=flat-square&logo=csharp&logoColor=c9728a&labelColor=0f0d0f)
+![Rust](https://img.shields.io/badge/Rust-0f0d0f?style=flat-square&logo=rust&logoColor=c9728a&labelColor=0f0d0f)
+
+**Scripting & Automation**
+
+![Python](https://img.shields.io/badge/Python-0f0d0f?style=flat-square&logo=python&logoColor=9a6a7a&labelColor=0f0d0f)
+![Shell](https://img.shields.io/badge/Shell-0f0d0f?style=flat-square&logo=gnubash&logoColor=9a6a7a&labelColor=0f0d0f)
+![PowerShell](https://img.shields.io/badge/PowerShell-0f0d0f?style=flat-square&logo=powershell&logoColor=9a6a7a&labelColor=0f0d0f)
+
+**Web & Full-Stack**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-0f0d0f?style=flat-square&logo=typescript&logoColor=8a7a9a&labelColor=0f0d0f)
+![Node.js](https://img.shields.io/badge/Node.js-0f0d0f?style=flat-square&logo=nodedotjs&logoColor=8a7a9a&labelColor=0f0d0f)
+![React](https://img.shields.io/badge/React-0f0d0f?style=flat-square&logo=react&logoColor=8a7a9a&labelColor=0f0d0f)
+![Electron](https://img.shields.io/badge/Electron-0f0d0f?style=flat-square&logo=electron&logoColor=8a7a9a&labelColor=0f0d0f)
+![Next.js](https://img.shields.io/badge/Next.js-0f0d0f?style=flat-square&logo=nextdotjs&logoColor=8a7a9a&labelColor=0f0d0f)
+
+**Infrastructure**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0f0d0f?style=flat-square&logo=postgresql&logoColor=7a6a8a&labelColor=0f0d0f)
+![Redis](https://img.shields.io/badge/Redis-0f0d0f?style=flat-square&logo=redis&logoColor=7a6a8a&labelColor=0f0d0f)
+![Docker](https://img.shields.io/badge/Docker-0f0d0f?style=flat-square&logo=docker&logoColor=7a6a8a&labelColor=0f0d0f)
+![Linux](https://img.shields.io/badge/Linux-0f0d0f?style=flat-square&logo=linux&logoColor=7a6a8a&labelColor=0f0d0f)
+![Git](https://img.shields.io/badge/Git-0f0d0f?style=flat-square&logo=git&logoColor=7a6a8a&labelColor=0f0d0f)
 
 </div>
 
@@ -157,21 +225,21 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=thebloomstart&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=ff4b4b&text_color=c9d1d9&border_radius=12" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=thebloomstart&show_icons=true&count_private=true&hide_border=true&bg_color=0f0d0f&title_color=c9728a&icon_color=7a4a58&text_color=8a5a68&border_radius=12" height="160"/>
 &nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=thebloomstart&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4aa&fire=ff4b4b&currStreakLabel=00d4aa&border_radius=12" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=thebloomstart&hide_border=true&background=0f0d0f&ring=c9728a&fire=9a4a60&currStreakLabel=c9728a&sideLabels=7a4a58&dates=4a2a32&border_radius=12" height="160"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thebloomstart&layout=donut&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=c9d1d9&border_radius=12&langs_count=8" height="220"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thebloomstart&layout=donut&hide_border=true&bg_color=0f0d0f&title_color=c9728a&text_color=8a5a68&border_radius=12&langs_count=8" height="200"/>
 
 </div>
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=thebloomstart&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d4aa&line=00d4aa&point=ff4b4b&area=true&area_color=00d4aa)](https://github.com/thebloomstart)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=thebloomstart&hide_border=true&bg_color=0f0d0f&color=c9728a&line=7a4a58&point=c9728a&area=true&area_color=c9728a)](https://github.com/thebloomstart)
 
 </div>
 
@@ -181,52 +249,51 @@
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=thebloomstart&theme=tokyonight&no-frame=true&column=7&margin-w=8)](https://github.com/thebloomstart)
+[![trophy](https://github-profile-trophy.vercel.app/?username=thebloomstart&theme=onestar&no-frame=true&column=7&margin-w=8&title_color=c9728a)](https://github.com/thebloomstart)
 
 </div>
 
 ---
 
-## 📌 Bloom — Projects Board
+## 📌 Projects
 
 <div align="center">
 
-| 🔖 | Project | Stack | Status |
-|:---:|:---|:---:|:---:|
-| 🌸 | **Bloom Core** — main toolkit & scripts | `Python` `Shell` | ![Active](https://img.shields.io/badge/-Active-00d4aa?style=flat-square) |
-| 🤖 | **Bot Suite** — multi-platform bots | `Python` `Node.js` | ![Active](https://img.shields.io/badge/-Active-00d4aa?style=flat-square) |
-| 🔓 | **Discord Utils** — quest bypass & tools | `TypeScript` | ![Active](https://img.shields.io/badge/-Active-00d4aa?style=flat-square) |
-| ⚡ | **Sys Tools** — low-level utilities | `C++` `Rust` | ![WIP](https://img.shields.io/badge/-WIP-ff9500?style=flat-square) |
-| 🖥️ | **Desktop Apps** — cross-platform apps | `Electron` `TS` | ![WIP](https://img.shields.io/badge/-WIP-ff9500?style=flat-square) |
-| 🌐 | **Web Tools** — browser extensions & web | `React` `TS` | ![Planned](https://img.shields.io/badge/-Planned-888888?style=flat-square) |
+<img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/projects-board.svg" width="100%"/>
 
 </div>
 
 ---
 
-## 🎯 2026 Goals
+## 🎯 Goals
 
 <div align="center">
 
-```
- ✅  Ship Bloom Core v1.0
- ✅  Launch public bot suite
- 🔄  Reach 100 GitHub stars
- 🔄  Build full Electron app
- ⏳  Expand Bloom team
- ⏳  1000+ Telegram subscribers
-```
+<img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/goals-card.svg" width="100%"/>
 
 </div>
 
 ---
 
-## 👁️ Visitors & Socials
+## 👁 Visitors & Socials
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=thebloomstart&color=00d4aa&style=for-the-badge&label=PROFILE+VIEWS)
-[![Telegram](https://img.shields.io/badge/Telegram-BloomDev-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/BloomDev)
+![Profile Views](https://komarev.com/ghpvc/?username=thebloomstart&color=c9728a&style=flat-square&label=profile+views)
+&nbsp;
+[![Telegram](https://img.shields.io/badge/BloomDev-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/BloomDev)
+&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/thebloomstart?style=flat-square&color=c9728a&labelColor=0f0d0f&label=followers)](https://github.com/thebloomstart)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/footer-banner.svg" width="100%"/>
+
+</div>ttps://t.me/BloomDev)
 [![GitHub followers](https://img.shields.io/github/followers/thebloomstart?style=for-the-badge&color=00d4aa&labelColor=0d1117&label=FOLLOWERS)](https://github.com/thebloomstart)
 
 </div>
