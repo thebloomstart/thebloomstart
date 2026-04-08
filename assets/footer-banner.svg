@@ -1,1 +1,35 @@
+<svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes waveDrift { 0%{transform:translateX(0)} 100%{transform:translateX(-800px)} }
+      @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+      .wave1 { animation: waveDrift 20s linear infinite; }
+      .wave2 { animation: waveDrift 26s linear infinite reverse; }
+      .label { animation: fadeIn 1.2s 0.3s ease both; }
+    </style>
+    <linearGradient id="bgf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0809"/>
+      <stop offset="100%" stop-color="#1a0d12"/>
+    </linearGradient>
+    <linearGradient id="wgf1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9728a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#c9728a" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="wgf2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a3a52" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8a3a52" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
 
+  <rect width="800" height="100" fill="url(#bgf)"/>
+
+  <g class="wave1">
+    <path d="M0,40 C80,20 160,60 240,40 C320,20 400,60 480,40 C560,20 640,60 720,40 C800,20 880,60 960,40 C1040,20 1120,60 1200,40 L1200,0 L0,0 Z" fill="url(#wgf1)"/>
+  </g>
+  <g class="wave2">
+    <path d="M0,55 C100,35 200,70 300,55 C400,40 500,70 600,55 C700,40 800,70 900,55 C1000,40 1100,70 1200,55 L1200,0 L0,0 Z" fill="url(#wgf2)"/>
+  </g>
+
+  <text class="label" x="400" y="62" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="10" fill="#6b3a48" text-anchor="middle" letter-spacing="3" font-weight="500">BLOOM PROJECT · BUILDING WITH PURPOSE, SHIPPING WITH INTENTION</text>
+  <text class="label" x="400" y="80" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="10" fill="#3a1a22" text-anchor="middle" letter-spacing="1">Made by Zynapse with 🌸</text>
+</svg>
