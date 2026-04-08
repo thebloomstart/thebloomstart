@@ -1,114 +1,141 @@
-<svg width="800" height="320" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 680 430" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Zynapse System Profile — iOS White Theme</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A clean white profile card with animated skill bars, iOS-inspired typography, and subtle design details for a senior developer named Bloom CEO.</desc>
+
   <defs>
-    <style>
-      @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes barGrow { from { width: 0; } to { } }
-      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
-      .card { animation: fadeIn 0.8s ease forwards; }
-      .row1 { animation: fadeIn 0.6s 0.1s ease both; }
-      .row2 { animation: fadeIn 0.6s 0.2s ease both; }
-      .row3 { animation: fadeIn 0.6s 0.3s ease both; }
-      .row4 { animation: fadeIn 0.6s 0.4s ease both; }
-      .row5 { animation: fadeIn 0.6s 0.5s ease both; }
-      .row6 { animation: fadeIn 0.6s 0.6s ease both; }
-      .dot { animation: pulse 2.4s ease-in-out infinite; }
-    </style>
-    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#c9728a"/>
-      <stop offset="100%" stop-color="#e8a0b0"/>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#534AB7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#AFA9EC" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="barGrad2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#c9728a"/>
-      <stop offset="100%" stop-color="#d4536e"/>
+    <linearGradient id="shimmer2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="70%" stop-color="#7F77DD"/>
+      <stop offset="100%" stop-color="#CECBF6"/>
     </linearGradient>
-    <clipPath id="bar1"><rect x="0" y="0" width="100%" height="100%"/></clipPath>
+    <linearGradient id="barLow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D3D1C7"/>
+      <stop offset="100%" stop-color="#B4B2A9"/>
+    </linearGradient>
+    <clipPath id="card-clip">
+      <rect x="0" y="0" width="680" height="420" rx="28"/>
+    </clipPath>
+
+    
   </defs>
 
-  <!-- Background -->
-  <rect width="800" height="320" rx="18" fill="#0f0d0f"/>
-  <rect width="800" height="320" rx="18" fill="none" stroke="#2a1a20" stroke-width="1"/>
+  <!-- Card surface -->
+  <rect x="0" y="0" width="680" height="420" rx="28" fill="#ffffff" stroke="#E8E7E0" stroke-width="1" style="fill:rgb(255, 255, 255);stroke:rgb(232, 231, 224);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Top header line -->
-  <rect x="32" y="32" width="736" height="1" rx="0.5" fill="#2a1a20"/>
+  <!-- Subtle top accent line -->
+  <rect x="0" y="0" width="680" height="3" rx="0" fill="url(#shimmer)" clip-path="url(#card-clip)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Header text -->
-  <text x="40" y="25" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" letter-spacing="3" font-weight="500">ZYNAPSE · SYSTEM PROFILE v2.6</text>
+  <!-- Header area -->
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!-- Avatar circle -->
+    <circle cx="56" cy="64" r="22" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="1" style="fill:rgb(238, 237, 254);stroke:rgb(175, 169, 236);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="56" y="70" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="13" font-weight="600" fill="#534AB7" text-anchor="middle" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:13px;font-weight:600;text-anchor:middle;dominant-baseline:auto">BC</text>
 
-  <!-- Online indicator -->
-  <circle class="dot" cx="726" cy="20" r="3.5" fill="#c9728a"/>
-  <text x="736" y="25" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#c9728a" letter-spacing="1">ONLINE</text>
+    <!-- Name + role -->
+    <text x="90" y="56" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="16" font-weight="600" fill="#1C1C1E" letter-spacing="-0.3" style="fill:rgb(28, 28, 30);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:16px;font-weight:600;text-anchor:start;dominant-baseline:auto">Bloom CEO</text>
+    <text x="90" y="74" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" font-weight="400" fill="#8E8E93" letter-spacing="0.2" style="fill:rgb(142, 142, 147);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Senior Developer · Remote · Solo / Collab</text>
+  </g>
+
+  <!-- Online badge -->
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <rect x="573" y="48" width="80" height="26" rx="13" fill="#EAF3DE" stroke="#C0DD97" stroke-width="0.5" style="fill:rgb(234, 243, 222);stroke:rgb(192, 221, 151);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="589" cy="61" r="3.5" fill="#639922" style="fill:rgb(99, 153, 34);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.477294;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="597" y="65.5" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#3B6D11" letter-spacing="0.5" style="fill:rgb(59, 109, 17);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">ONLINE</text>
+  </g>
 
   <!-- Divider -->
-  <rect x="32" y="48" width="736" height="0.5" rx="0.25" fill="#1e1218"/>
+  <rect x="32" y="100" width="616" height="0.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Row helper: label, val, bar bg, bar fill, pct -->
+  <!-- Section label -->
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="32" y="125" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#AFA9EC" letter-spacing="2" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">SYSTEM PROFILE  ·  v2.6</text>
+  </g>
+
+  <!-- ── ROW helper macro ── -->
   <!-- ROW 1: LEVEL -->
-  <g class="row1">
-    <text x="40" y="82" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5" font-weight="400">LEVEL</text>
-    <text x="140" y="82" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">SENIOR</text>
-    <rect x="280" y="74" width="420" height="4" rx="2" fill="#1e1218"/>
-    <rect x="280" y="74" width="420" height="4" rx="2" fill="url(#barGrad)"/>
-    <text x="720" y="82" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">MAX</text>
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="32" y="161" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#8E8E93" letter-spacing="1.5" style="fill:rgb(142, 142, 147);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">LEVEL</text>
+    <text x="130" y="161" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" font-weight="600" fill="#1C1C1E" style="fill:rgb(28, 28, 30);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:12px;font-weight:600;text-anchor:start;dominant-baseline:auto">Senior</text>
+    <!-- track -->
+    <rect x="270" y="154" width="340" height="5" rx="2.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- fill -->
+    <rect x="270" y="154" width="340" height="5" rx="2.5" fill="url(#shimmer2)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="622" y="161" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#AFA9EC" text-anchor="end" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:end;dominant-baseline:auto">MAX</text>
   </g>
 
   <!-- ROW 2: LANGUAGES -->
-  <g class="row2">
-    <text x="40" y="114" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">LANGUAGES</text>
-    <text x="140" y="114" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">10+</text>
-    <rect x="280" y="106" width="420" height="4" rx="2" fill="#1e1218"/>
-    <rect x="280" y="106" width="399" height="4" rx="2" fill="url(#barGrad)"/>
-    <text x="720" y="114" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">95%</text>
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="32" y="193" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#8E8E93" letter-spacing="1.5" style="fill:rgb(142, 142, 147);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">LANGUAGES</text>
+    <text x="130" y="193" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" font-weight="600" fill="#1C1C1E" style="fill:rgb(28, 28, 30);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:12px;font-weight:600;text-anchor:start;dominant-baseline:auto">10+</text>
+    <rect x="270" y="186" width="340" height="5" rx="2.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="270" y="186" width="323" height="5" rx="2.5" fill="url(#shimmer2)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="622" y="193" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#AFA9EC" text-anchor="end" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:end;dominant-baseline:auto">95%</text>
   </g>
 
   <!-- ROW 3: SOLO POWER -->
-  <g class="row3">
-    <text x="40" y="146" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">SOLO POWER</text>
-    <text x="140" y="146" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">BEAST</text>
-    <rect x="280" y="138" width="420" height="4" rx="2" fill="#1e1218"/>
-    <rect x="280" y="138" width="378" height="4" rx="2" fill="url(#barGrad)"/>
-    <text x="720" y="146" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">90%</text>
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="32" y="225" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#8E8E93" letter-spacing="1.5" style="fill:rgb(142, 142, 147);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">SOLO POWER</text>
+    <text x="130" y="225" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" font-weight="600" fill="#1C1C1E" style="fill:rgb(28, 28, 30);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:12px;font-weight:600;text-anchor:start;dominant-baseline:auto">Beast</text>
+    <rect x="270" y="218" width="340" height="5" rx="2.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="270" y="218" width="306" height="5" rx="2.5" fill="url(#shimmer2)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="622" y="225" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#AFA9EC" text-anchor="end" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:end;dominant-baseline:auto">90%</text>
   </g>
 
   <!-- ROW 4: OPEN SOURCE -->
-  <g class="row4">
-    <text x="40" y="178" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">OPEN SOURCE</text>
-    <text x="140" y="178" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">ON</text>
-    <rect x="280" y="170" width="420" height="4" rx="2" fill="#1e1218"/>
-    <rect x="280" y="170" width="420" height="4" rx="2" fill="url(#barGrad)"/>
-    <text x="720" y="178" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">100%</text>
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="32" y="257" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#8E8E93" letter-spacing="1.5" style="fill:rgb(142, 142, 147);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">OPEN SOURCE</text>
+    <text x="130" y="257" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" font-weight="600" fill="#1C1C1E" style="fill:rgb(28, 28, 30);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:12px;font-weight:600;text-anchor:start;dominant-baseline:auto">On</text>
+    <rect x="270" y="250" width="340" height="5" rx="2.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="270" y="250" width="340" height="5" rx="2.5" fill="url(#shimmer2)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="622" y="257" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#AFA9EC" text-anchor="end" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:end;dominant-baseline:auto">100%</text>
   </g>
 
   <!-- ROW 5: SHIPPING -->
-  <g class="row5">
-    <text x="40" y="210" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">SHIPPING</text>
-    <text x="140" y="210" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">ALWAYS</text>
-    <rect x="280" y="202" width="420" height="4" rx="2" fill="#1e1218"/>
-    <rect x="280" y="202" width="420" height="4" rx="2" fill="url(#barGrad)"/>
-    <text x="720" y="210" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">100%</text>
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="32" y="289" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#8E8E93" letter-spacing="1.5" style="fill:rgb(142, 142, 147);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">SHIPPING</text>
+    <text x="130" y="289" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" font-weight="600" fill="#1C1C1E" style="fill:rgb(28, 28, 30);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:12px;font-weight:600;text-anchor:start;dominant-baseline:auto">Always</text>
+    <rect x="270" y="282" width="340" height="5" rx="2.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="270" y="282" width="340" height="5" rx="2.5" fill="url(#shimmer2)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="622" y="289" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#AFA9EC" text-anchor="end" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:end;dominant-baseline:auto">100%</text>
   </g>
 
   <!-- ROW 6: COFFEE -->
-  <g class="row6">
-    <text x="40" y="242" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">COFFEE</text>
-    <text x="140" y="242" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">LOW</text>
-    <rect x="280" y="234" width="420" height="4" rx="2" fill="#1e1218"/>
-    <rect x="280" y="234" width="76" height="4" rx="2" fill="#8b3a50"/>
-    <text x="720" y="242" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">18%</text>
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="32" y="321" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#8E8E93" letter-spacing="1.5" style="fill:rgb(142, 142, 147);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:start;dominant-baseline:auto">COFFEE</text>
+    <text x="130" y="321" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" font-weight="600" fill="#E24B4A" style="fill:rgb(226, 75, 74);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:12px;font-weight:600;text-anchor:start;dominant-baseline:auto">Low ⚠</text>
+    <rect x="270" y="314" width="340" height="5" rx="2.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="270" y="314" width="61" height="5" rx="2.5" fill="#F09595" style="fill:rgb(240, 149, 149);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="622" y="321" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#E24B4A" text-anchor="end" style="fill:rgb(226, 75, 74);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:end;dominant-baseline:auto">18%</text>
   </g>
 
-  <!-- Bottom divider -->
-  <rect x="32" y="264" width="736" height="0.5" rx="0.25" fill="#1e1218"/>
+  <!-- Divider -->
+  <rect x="32" y="344" width="616" height="0.5" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Info row -->
-  <text x="40" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">ROLE</text>
-  <text x="40" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Senior Developer</text>
+  <!-- Footer chips -->
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!-- CHIP 1 -->
+    <rect x="32" y="356" width="72" height="26" rx="13" fill="#F2F2F7" style="fill:rgb(242, 242, 247);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="68" y="373" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#3C3C43" text-anchor="middle" style="fill:rgb(60, 60, 67);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Remote</text>
 
-  <text x="220" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">PROJECT</text>
-  <text x="220" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Bloom CEO</text>
+    <!-- CHIP 2 -->
+    <rect x="114" y="356" width="108" height="26" rx="13" fill="#EEEDFE" style="fill:rgb(238, 237, 254);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="168" y="373" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#534AB7" text-anchor="middle" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Solo / Collab</text>
 
-  <text x="420" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">MODE</text>
-  <text x="420" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Solo / Collab</text>
+    <!-- CHIP 3 -->
+    <rect x="232" y="356" width="68" height="26" rx="13" fill="#EAF3DE" style="fill:rgb(234, 243, 222);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="266" y="373" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="500" fill="#3B6D11" text-anchor="middle" style="fill:rgb(59, 109, 17);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Open src</text>
+  </g>
 
-  <text x="620" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">BASE</text>
-  <text x="620" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Remote</text>
+  <!-- Footer build tag -->
+  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="622" y="373" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" font-weight="400" fill="#C7C7CC" text-anchor="end" letter-spacing="0.5" style="fill:rgb(199, 199, 204);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:-apple-system, &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:end;dominant-baseline:auto">build 2.6.0</text>
+  </g>
+
+  <!-- Bottom micro line matching top accent -->
+  <rect x="0" y="417" width="680" height="3" rx="0" fill="url(#shimmer)" clip-path="url(#card-clip)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 </svg>
