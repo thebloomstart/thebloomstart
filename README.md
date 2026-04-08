@@ -1,60 +1,61 @@
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/header-banner.svg" width="100%"/>
+</div>
+
+---
+
+<div align="center">
+
+### ilyamiro
+nixos enjoyer • open source
+
+<br/>
+
+<!-- SOCIAL ICONS -->
+<a href="https://t.me/BloomDev">
+  <img src="https://readmecodegen.vercel.app/api/social-icon?name=telegram&bg=0f0d0f&color=c9728a&size=28"/>
+</a>
+<a href="https://github.com/thebloomstart">
+  <img src="https://readmecodegen.vercel.app/api/social-icon?name=github&bg=0f0d0f&color=c9728a&size=28"/>
+</a>
 
 </div>
 
 ---
 
-## 🌸 About
+## ⚡ About
 
-I'm **Zynapse** — Senior Full-Stack Developer  
-CEO of **Bloom Project**
+Senior Full-Stack Developer  
+CEO of Bloom Project  
 
-Building tools that solve real problems.  
-Focused on performance, automation, and clean architecture.
-
-- Bots & automation  
-- Desktop & web apps  
-- Low-level systems  
-
-→ https://t.me/BloomDev
+Building tools that actually matter.  
+Bots → automation → full-scale systems  
 
 ---
 
-## ⚡ Philosophy
+## 💻 Stack
 
-> If it's broken — I fix it  
-> If it's missing — I build it  
-> If it's built — I open-source it  
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=cpp,cs,rust" />
+<br/>
+<img src="https://skillicons.dev/icons?i=python,bash,powershell" />
+<br/>
+<img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,electron" />
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,redis,docker,linux,git" />
+
+</div>
 
 ---
 
-## 💻 Tech
+## 📊 Info
 
-### Systems
-- C++
-- C#
-- Rust
+<div align="center">
 
-### Automation
-- Python
-- Shell
-- PowerShell
+<img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/hud-card.svg" width="100%"/>
 
-### Web
-- TypeScript
-- Node.js
-- React
-- Next.js
-- Electron
-
-### Infrastructure
-- PostgreSQL
-- Redis
-- Docker
-- Linux
-- Git
+</div>
 
 ---
 
@@ -74,15 +75,14 @@ Focused on performance, automation, and clean architecture.
 
 ---
 
-## 📬 Contact
+## 🧠 Philosophy
 
-- Telegram: https://t.me/BloomDev
-- GitHub: https://github.com/thebloomstart
+> if it's broken — i fix it  
+> if it's missing — i build it  
+> if it's built — i open-source it  
 
 ---
 
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/thebloomstart/thebloomstart/main/assets/footer-banner.svg" width="100%"/>
-
 </div>
