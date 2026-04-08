@@ -8,26 +8,17 @@
 
 <div align="center">
 
-<img src="https://readmecodegen.vercel.app/api/text?text=ilyamiro&size=32&color=c9728a"/>
+<h2>Zynapse</h2>
+<p>nixos enjoyer • open source</p>
 
 <br/>
 
-<img src="https://readmecodegen.vercel.app/api/text?text=nixos%20enjoyer%20•%20open%20source&size=14&color=7a4a58"/>
-
-<br/><br/>
-
-<img src="https://readmecodegen.vercel.app/api/badge?label=NIX&color=1a1a1a"/>
-<img src="https://readmecodegen.vercel.app/api/badge?label=SHELL&color=1a1a1a"/>
-<img src="https://readmecodegen.vercel.app/api/badge?label=PYTHON&color=1a1a1a"/>
-<img src="https://readmecodegen.vercel.app/api/badge?label=LINUX&color=1a1a1a"/>
-
-<br/><br/>
-
+<!-- СТАБИЛЬНЫЕ ИКОНКИ -->
 <a href="https://t.me/BloomDev">
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=telegram&color=c9728a&size=28"/>
+  <img src="https://cdn.simpleicons.org/telegram/c9728a" height="26"/>
 </a>
 <a href="https://github.com/thebloomstart">
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=github&color=c9728a&size=28"/>
+  <img src="https://cdn.simpleicons.org/github/c9728a" height="26"/>
 </a>
 
 </div>
@@ -46,6 +37,7 @@
 
 <div align="center">
 
+<!-- СТАБИЛЬНЫЕ TECH ИКОНКИ -->
 <img src="https://skillicons.dev/icons?i=cpp,cs,rust" />
 <br/>
 <img src="https://skillicons.dev/icons?i=python,bash,powershell" />
