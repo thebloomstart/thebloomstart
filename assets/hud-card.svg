@@ -1,1 +1,114 @@
+<svg width="800" height="320" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes barGrow { from { width: 0; } to { } }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+      .card { animation: fadeIn 0.8s ease forwards; }
+      .row1 { animation: fadeIn 0.6s 0.1s ease both; }
+      .row2 { animation: fadeIn 0.6s 0.2s ease both; }
+      .row3 { animation: fadeIn 0.6s 0.3s ease both; }
+      .row4 { animation: fadeIn 0.6s 0.4s ease both; }
+      .row5 { animation: fadeIn 0.6s 0.5s ease both; }
+      .row6 { animation: fadeIn 0.6s 0.6s ease both; }
+      .dot { animation: pulse 2.4s ease-in-out infinite; }
+    </style>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c9728a"/>
+      <stop offset="100%" stop-color="#e8a0b0"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c9728a"/>
+      <stop offset="100%" stop-color="#d4536e"/>
+    </linearGradient>
+    <clipPath id="bar1"><rect x="0" y="0" width="100%" height="100%"/></clipPath>
+  </defs>
 
+  <!-- Background -->
+  <rect width="800" height="320" rx="18" fill="#0f0d0f"/>
+  <rect width="800" height="320" rx="18" fill="none" stroke="#2a1a20" stroke-width="1"/>
+
+  <!-- Top header line -->
+  <rect x="32" y="32" width="736" height="1" rx="0.5" fill="#2a1a20"/>
+
+  <!-- Header text -->
+  <text x="40" y="25" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" letter-spacing="3" font-weight="500">ZYNAPSE · SYSTEM PROFILE v2.6</text>
+
+  <!-- Online indicator -->
+  <circle class="dot" cx="726" cy="20" r="3.5" fill="#c9728a"/>
+  <text x="736" y="25" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#c9728a" letter-spacing="1">ONLINE</text>
+
+  <!-- Divider -->
+  <rect x="32" y="48" width="736" height="0.5" rx="0.25" fill="#1e1218"/>
+
+  <!-- Row helper: label, val, bar bg, bar fill, pct -->
+  <!-- ROW 1: LEVEL -->
+  <g class="row1">
+    <text x="40" y="82" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5" font-weight="400">LEVEL</text>
+    <text x="140" y="82" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">SENIOR</text>
+    <rect x="280" y="74" width="420" height="4" rx="2" fill="#1e1218"/>
+    <rect x="280" y="74" width="420" height="4" rx="2" fill="url(#barGrad)"/>
+    <text x="720" y="82" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">MAX</text>
+  </g>
+
+  <!-- ROW 2: LANGUAGES -->
+  <g class="row2">
+    <text x="40" y="114" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">LANGUAGES</text>
+    <text x="140" y="114" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">10+</text>
+    <rect x="280" y="106" width="420" height="4" rx="2" fill="#1e1218"/>
+    <rect x="280" y="106" width="399" height="4" rx="2" fill="url(#barGrad)"/>
+    <text x="720" y="114" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">95%</text>
+  </g>
+
+  <!-- ROW 3: SOLO POWER -->
+  <g class="row3">
+    <text x="40" y="146" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">SOLO POWER</text>
+    <text x="140" y="146" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">BEAST</text>
+    <rect x="280" y="138" width="420" height="4" rx="2" fill="#1e1218"/>
+    <rect x="280" y="138" width="378" height="4" rx="2" fill="url(#barGrad)"/>
+    <text x="720" y="146" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">90%</text>
+  </g>
+
+  <!-- ROW 4: OPEN SOURCE -->
+  <g class="row4">
+    <text x="40" y="178" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">OPEN SOURCE</text>
+    <text x="140" y="178" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">ON</text>
+    <rect x="280" y="170" width="420" height="4" rx="2" fill="#1e1218"/>
+    <rect x="280" y="170" width="420" height="4" rx="2" fill="url(#barGrad)"/>
+    <text x="720" y="178" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">100%</text>
+  </g>
+
+  <!-- ROW 5: SHIPPING -->
+  <g class="row5">
+    <text x="40" y="210" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">SHIPPING</text>
+    <text x="140" y="210" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">ALWAYS</text>
+    <rect x="280" y="202" width="420" height="4" rx="2" fill="#1e1218"/>
+    <rect x="280" y="202" width="420" height="4" rx="2" fill="url(#barGrad)"/>
+    <text x="720" y="210" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">100%</text>
+  </g>
+
+  <!-- ROW 6: COFFEE -->
+  <g class="row6">
+    <text x="40" y="242" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#4a2a32" letter-spacing="1.5">COFFEE</text>
+    <text x="140" y="242" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#7a4a58" letter-spacing="0.5">LOW</text>
+    <rect x="280" y="234" width="420" height="4" rx="2" fill="#1e1218"/>
+    <rect x="280" y="234" width="76" height="4" rx="2" fill="#8b3a50"/>
+    <text x="720" y="242" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#6b3a48" text-anchor="end">18%</text>
+  </g>
+
+  <!-- Bottom divider -->
+  <rect x="32" y="264" width="736" height="0.5" rx="0.25" fill="#1e1218"/>
+
+  <!-- Info row -->
+  <text x="40" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">ROLE</text>
+  <text x="40" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Senior Developer</text>
+
+  <text x="220" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">PROJECT</text>
+  <text x="220" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Bloom CEO</text>
+
+  <text x="420" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">MODE</text>
+  <text x="420" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Solo / Collab</text>
+
+  <text x="620" y="292" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="11" fill="#3a1a22" letter-spacing="2">BASE</text>
+  <text x="620" y="308" font-family="-apple-system, SF Pro Display, Helvetica Neue, sans-serif" font-size="12" fill="#9a5a6a" letter-spacing="0.5">Remote</text>
+</svg>
